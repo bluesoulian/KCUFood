@@ -363,10 +363,10 @@ a:hover {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 27%;
+    left: 22%;
     top: 2750px;
     background-color: brown;
-    width: 25%;
+    width: 30%;
   }
 
   .NavMenu1 {
@@ -394,37 +394,37 @@ a:hover {
   .imgs1 {
     position: absolute;
     top: 60px;
-    left: 10%;
+    left: 0%;
   }
 
   .imgs1-1 {
     position: absolute;
     top: 510px;
-    left: 10%;
+    left: 0%;
   }
 
   .imgs1-2 {
     position: absolute;
     top: 960px;
-    left: 10%;
+    left: 0%;
   }
 
   .E_imgs1 {
     position: absolute;
     top: 320px;
-    left: 15%;
+    left: 5%;
   }
 
   .E_imgs1-1 {
     position: absolute;
     top: 770px;
-    left: 15%;
+    left: 5%;
   }
 
   .E_imgs1-2 {
     position: absolute;
     top: 1220px;
-    left: 15%;
+    left: 5%;
   }
 
   .imgs2 {
@@ -433,7 +433,7 @@ a:hover {
     margin: 10px 15px;
     position: absolute;
     top: 1410px;
-    left: 10%;
+    left: 0%;
   }
 
   .imgs2-1 {
@@ -441,7 +441,7 @@ a:hover {
     height: 250px;
     margin: 10px 15px;
     position: absolute;
-    left: 10%;
+    left: 0%;
     top: 1860px;
   }
 
@@ -450,14 +450,14 @@ a:hover {
     height: 250px;
     margin: 10px 15px;
     position: absolute;
-    left: 10%;
+    left: 0%;
     top: 2310px;
   }
 
   .E_imgs2 {
     padding-top: 5px;
     position: absolute;
-    left: 15%;
+    left: 5%;
     top: 1660px;
     color: #f1f2f4;
   }
@@ -465,14 +465,14 @@ a:hover {
   .E_imgs2-1 {
     padding-top: 5px;
     position: absolute;
-    left: 15%;
+    left: 5%;
     top: 2120px;
     color: #f1f2f4;
   }
   .E_imgs2-2 {
     padding-top: 5px;
     position: absolute;
-    left: 15%;
+    left: 5%;
     color: #f1f2f4;
     top: 2570px;
   }
