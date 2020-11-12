@@ -165,8 +165,11 @@ a {
 
   .fa-whatsapp {
     position: relative;
+    display: none;
+  }
 
-    margin-right: 0px;
+  .fa-phone-alt {
+    display: none;
   }
 
   .Contact_number {
