@@ -232,11 +232,10 @@ a:hover {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 33%;
+    left: 32%;
     top: 2750px;
     background-color: brown;
     width: 22%;
-    
   }
 
   .NavMenu1 {
@@ -343,6 +342,137 @@ a:hover {
     padding-top: 5px;
     position: absolute;
     left: 100px;
+    color: #f1f2f4;
+    top: 2570px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    position: absolute;
+    left: 0px;
+    color: #ff7300;
+  }
+
+  .NavMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 27%;
+    top: 2750px;
+    background-color: brown;
+    width: 25%;
+  }
+
+  .NavMenu1 {
+    padding: 0;
+  }
+
+  .NavAboutUs {
+    padding: 0;
+  }
+
+  .NavContactUs {
+    padding: 0;
+  }
+
+  .Dosirak {
+    display: none;
+  }
+
+  .Burger {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+  .imgs1 {
+    position: absolute;
+    top: 60px;
+    left: 10%;
+  }
+
+  .imgs1-1 {
+    position: absolute;
+    top: 510px;
+    left: 10%;
+  }
+
+  .imgs1-2 {
+    position: absolute;
+    top: 960px;
+    left: 10%;
+  }
+
+  .E_imgs1 {
+    position: absolute;
+    top: 320px;
+    left: 15%;
+  }
+
+  .E_imgs1-1 {
+    position: absolute;
+    top: 770px;
+    left: 15%;
+  }
+
+  .E_imgs1-2 {
+    position: absolute;
+    top: 1220px;
+    left: 15%;
+  }
+
+  .imgs2 {
+    width: 300px;
+    height: 250px;
+    margin: 10px 15px;
+    position: absolute;
+    top: 1410px;
+    left: 10%;
+  }
+
+  .imgs2-1 {
+    width: 300px;
+    height: 250px;
+    margin: 10px 15px;
+    position: absolute;
+    left: 10%;
+    top: 1860px;
+  }
+
+  .imgs2-2 {
+    width: 300px;
+    height: 250px;
+    margin: 10px 15px;
+    position: absolute;
+    left: 10%;
+    top: 2310px;
+  }
+
+  .E_imgs2 {
+    padding-top: 5px;
+    position: absolute;
+    left: 15%;
+    top: 1660px;
+    color: #f1f2f4;
+  }
+
+  .E_imgs2-1 {
+    padding-top: 5px;
+    position: absolute;
+    left: 15%;
+    top: 2120px;
+    color: #f1f2f4;
+  }
+  .E_imgs2-2 {
+    padding-top: 5px;
+    position: absolute;
+    left: 15%;
     color: #f1f2f4;
     top: 2570px;
   }
