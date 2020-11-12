@@ -127,7 +127,7 @@ a {
   .Nav{
     display: flex;
     flex-direction: row;
-    padding-right: 
+    
   }
   .logo {
     margin: 0px;
@@ -163,12 +163,9 @@ a {
     left: 30%;
     top: 230%;
     background-color: Rgb(255, 172, 172);
-    width:50%
+    width: 100%;
     }
 
-  .navs{
-    padding: 0;
-  }
 
   .fa-instagram {
     position: relative;
