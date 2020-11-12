@@ -122,6 +122,73 @@ a {
   }
 }
 
+@media screen and (max-width: 576px) {
+  .Nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .logo {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .Contact_logo1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    position: relative;
+    top: 100px;
+  }
+
+  .Contact_logo2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    position: relative;
+    top: 100px;
+  }
+
+  .NavMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 125px;
+    top: 1100px;
+    background-color: Rgb(255, 172, 172);
+    width: 50%;
+  }
+
+  .fa-instagram {
+    position: relative;
+    left: 120px;
+  }
+
+  .fa-whatsapp {
+    position: relative;
+    display: none;
+  }
+
+  .fa-phone-alt {
+    display: none;
+  }
+
+  .fa-youtube {
+    position: relative;
+    left: 75px;
+  }
+
+  .Contact_number {
+    position: absolute;
+    top: 20%;
+    left: 113px;
+    height: 18%;
+
+    text-align: center;
+    color: red;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .Nav {
     display: flex;
@@ -153,7 +220,7 @@ a {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 115px;
+    left: 120px;
     top: 1100px;
     background-color: Rgb(255, 172, 172);
     width: 50%;
@@ -175,7 +242,7 @@ a {
 
   .fa-youtube {
     position: relative;
-    left: 35px;
+    left: 45px;
   }
 
   .Contact_number {
