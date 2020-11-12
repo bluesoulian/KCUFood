@@ -152,18 +152,15 @@ a {
     top: 100px;
   }
 
-  .NavHome {
-    padding-left: 0%;
-  }
-
   .NavMenu {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
     left: 30%;
-    top: 230%;
+    top: 250%;
     background-color: Rgb(255, 172, 172);
+    width: 50%;
   }
 
   .fa-instagram {
