@@ -123,6 +123,11 @@ a {
 }
 
 @media screen and (max-width: 450px) {
+
+  .Nav{
+    display: flex;
+    padding-right: 500px;
+  }
   .logo {
     margin: 0px;
     padding: 0px;
@@ -130,15 +135,15 @@ a {
   .Contact_logo1 {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
-    top: 20%;
+    margin-left: 5%;
+    top: 25%;
   }
 
   .Contact_logo2 {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
-    top: 20%;
+    margin-left: 5%;
+    top: 25%;
   }
 
   .NavMenu {
@@ -146,7 +151,7 @@ a {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 25%;
+    left: 30%;
     top: 1700px;
     background-color: Rgb(255, 172, 172);
     padding: 0;
@@ -164,11 +169,12 @@ a {
 
   .Contact_number {
     position: absolute;
-    top: 13%;
+    top: 16%;
     left: 10%;
     height: 18%;
+   
     text-align: center;
-    background-color: wheat;
     color: red;
+    text-size
   }
 }
