@@ -123,18 +123,16 @@ a {
 }
 
 @media screen and (max-width: 450px) {
-
-  .Nav{
+  .Nav {
     display: flex;
     flex-direction: row;
-    
   }
   .logo {
     margin: 0px;
     padding: 0px;
   }
 
-  span{
+  span {
     position: relative;
     left: 10px;
   }
@@ -152,10 +150,9 @@ a {
     margin-left: 5%;
     position: relative;
     top: 100px;
-    
   }
 
-  .NavHome{
+  .NavHome {
     padding-left: 0%;
   }
 
@@ -167,18 +164,15 @@ a {
     left: 30%;
     top: 230%;
     background-color: Rgb(255, 172, 172);
-    width: 50%;
-    }
-
+  }
 
   .fa-instagram {
     position: relative;
-    
   }
 
   .fa-whatsapp {
     position: relative;
-    
+
     margin-right: 0px;
   }
 
@@ -187,9 +181,8 @@ a {
     top: 20%;
     left: 3%;
     height: 18%;
-    
-   
+
     text-align: center;
     color: red;
-    
+  }
 }
