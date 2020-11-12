@@ -153,14 +153,15 @@ a {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 30%;
-    top: 140%;
+    left: 115px;
+    top: 1100px;
     background-color: Rgb(255, 172, 172);
     width: 50%;
   }
 
   .fa-instagram {
     position: relative;
+    left: 75px;
   }
 
   .fa-whatsapp {
@@ -172,10 +173,15 @@ a {
     display: none;
   }
 
+  .fa-youtube {
+    position: relative;
+    left: 35px;
+  }
+
   .Contact_number {
     position: absolute;
     top: 20%;
-    left: 3%;
+    left: 60px;
     height: 18%;
 
     text-align: center;
