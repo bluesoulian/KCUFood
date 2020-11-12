@@ -155,6 +155,10 @@ a {
     
   }
 
+  .NavHome{
+    padding-left: 0%;
+  }
+
   .NavMenu {
     display: flex;
     flex-direction: column;
@@ -163,7 +167,7 @@ a {
     left: 30%;
     top: 230%;
     background-color: Rgb(255, 172, 172);
-    width: 100%;
+    width: 50%;
     }
 
 
