@@ -126,7 +126,8 @@ a {
 
   .Nav{
     display: flex;
-    padding-right: 300px;
+    flex-direction: row;
+    padding-right: 
   }
   .logo {
     margin: 0px;
@@ -155,19 +156,20 @@ a {
     align-items: center;
     position: absolute;
     left: 30%;
-    top: 1800px;
+    top: 1700px;
     background-color: Rgb(255, 172, 172);
     padding: 0;
   }
 
   .fa-instagram {
     position: relative;
-    left: 10%;
+    
   }
 
   .fa-whatsapp {
     position: relative;
-    left: 10%;
+    
+    margin-right: 0px;
   }
 
   .Contact_number {
@@ -175,9 +177,9 @@ a {
     top: 20%;
     left: 3%;
     height: 18%;
+    
    
     text-align: center;
     color: red;
-    text-size
-  }
+    
 }
