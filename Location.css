@@ -65,49 +65,71 @@ body {
 
 /*map*/
 
-.mapinfo{
+.mapinfo {
   display: flex;
   flex-direction: column;
 }
 
-.googlemap{
-    position: relative;
-    left: 20%;
-    width: 1000px;
-    height: 800px;    
+.googlemap {
+  position: relative;
+  left: 20%;
+  width: 1000px;
+  height: 800px;
 }
 
-.address{
-    position: relative;
-    left: 20%;
-    font-size: 20px;
-    
+.address {
+  position: relative;
+  left: 20%;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 1270px) {
-
-  .googlemap{
+  .googlemap {
     position: relative;
     left: 0;
     width: 100%;
     height: 500px;
   }
 
-  .NavMenu{
+  .NavMenu {
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 0px; 
+    bottom: 0px;
     left: 35%;
     align-items: center;
     background-color: black;
-    padding-left: 0;    
-
+    padding-left: 0;
   }
 
-  .address{
+  .address {
     position: relative;
     left: 0;
   }
+}
 
+@media screen and (max-width: 450px) {
+  .googlemap {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 500px;
+  }
+
+  .NavMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 700px;
+    left: 15%;
+    align-items: center;
+    background-color: black;
+    padding-left: 0;
+    height: 150px;
+  }
+
+  .address {
+    position: relative;
+    left: 0;
+  }
 }
