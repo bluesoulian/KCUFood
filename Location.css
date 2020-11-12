@@ -121,11 +121,11 @@ body {
     flex-direction: column;
     position: absolute;
     top: 700px;
-    left: 40%;
+    left: 30%;
     align-items: center;
     background-color: black;
     padding-left: 0;
-    height: 140px;
+    height: 135px;
   }
 
   .address {
