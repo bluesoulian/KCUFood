@@ -3,11 +3,62 @@ body {
   padding: 0;
   background-color: #13203f;
 }
+
+.whole {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  min-width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 100px;
+}
+
+.NavMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.navs {
+  margin: 2.5px;
+}
+
 .Menu {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: #13203f;
+  height: calc(100vh - 160px);
+  width: 100%;
+}
+
+.copy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding: 10px 15px;
+  font-size: 22px;
+  color: #ff7300;
+  height: 60px;
+  width: 95%;
+}
+
+.Burger {
+  margin-right: 46.8%;
+  color: #ff7300;
+  text-decoration: none;
+}
+
+.Burger:hover {
+  color: white;
 }
 
 .imgs1 {
@@ -91,12 +142,6 @@ body {
   color: #f1f2f4;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .logo {
   margin-left: 5px;
   color: rgb(255, 172, 172);
@@ -140,24 +185,6 @@ a:hover {
 
 .NavContactUs {
   padding-left: 10px;
-}
-
-.copy {
-  display: flex;
-  color: white;
-  padding: 10px 15px;
-  font-size: 22px;
-  color: #ff7300;
-}
-
-.Burger {
-  margin-left: 40.4%;
-  color: #ff7300;
-  text-decoration: none;
-}
-
-.Burger:hover {
-  color: white;
 }
 
 @media screen and (max-width: 1854px) {
@@ -232,10 +259,15 @@ a:hover {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 32%;
-    top: 2750px;
     background-color: brown;
-    width: 22%;
+    top: 10vh;
+    right: 26%;
+  }
+
+  .Menu {
+    display: flex;
+    position: relative;
+    top: 100px;
   }
 
   .NavMenu1 {
@@ -256,8 +288,9 @@ a:hover {
 
   .Burger {
     position: absolute;
-    top: 0px;
-    right: 45px;
+    top: 20px;
+    color: red;
+    margin-left: 40px;
   }
 
   .imgs1 {
