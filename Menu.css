@@ -348,13 +348,30 @@ a:hover {
 }
 
 @media screen and (max-width: 450px) {
+
+  .body:{
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .whole{
+    height: 100vh;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;   
+  }
+
   .nav {
     display: flex;
     flex-direction: column;
+    height: 80px;
+    
+   
   }
+
   .logo {
-    position: absolute;
-    left: 0px;
     color: #ff7300;
   }
 
@@ -362,118 +379,66 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    left: 22%;
-    top: 2750px;
-    background-color: brown;
-    width: 30%;
-  }
+    background-color: black;
+    top: 0;
+    position: relative;
+    top: 10vh;
+    height: 200px;
+    width: 15vh;
+    left: 0;
+ }
 
-  .NavMenu1 {
-    padding: 0;
-  }
+ .navs{
+   color: red;
+ }
 
-  .NavAboutUs {
-    padding: 0;
-  }
+ .Menu{
+  display: flex;
+  flex-direction: column;   
+  position: relative;
+  height: calc(100vh - 280px);
+  width: 100%;
+  margin: 0px;
+  top: 25vh;
+ }
 
-  .NavContactUs {
-    padding: 0;
-  }
+ .Burger{
+   text-align: center;
+   margin-top: 20px;
+ }
+ 
+ .imgs1{
+   width: 200px;
+   height: 200px;
+ }
 
-  .Dosirak {
-    display: none;
-  }
+ .imgs1-1{
+  width: 200px;
+  height: 200px;
+}
 
-  .Burger {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-  }
+.imgs1-2{
+  width: 200px;
+  height: 200px;
+}
 
-  .imgs1 {
-    position: absolute;
-    top: 60px;
-    left: 5%;
-  }
+ .imgs2{
+  width: 200px;
+  height: 200px;
+}
 
-  .imgs1-1 {
-    position: absolute;
-    top: 510px;
-    left: 5%;
-  }
+.imgs2-1{
+  width: 200px;
+  height: 200px;
+}
 
-  .imgs1-2 {
-    position: absolute;
-    top: 960px;
-    left: 5%;
-  }
+.imgs2-2{
+  width: 200px;
+  height: 200px;
+}
 
-  .E_imgs1 {
-    position: absolute;
-    top: 320px;
-    left: 10%;
-  }
+.E_imgs1{
+  position: relative;
+  
 
-  .E_imgs1-1 {
-    position: absolute;
-    top: 770px;
-    left: 10%;
-  }
-
-  .E_imgs1-2 {
-    position: absolute;
-    top: 1220px;
-    left: 10%;
-  }
-
-  .imgs2 {
-    width: 300px;
-    height: 250px;
-    margin: 10px 15px;
-    position: absolute;
-    top: 1410px;
-    left: 5%;
-  }
-
-  .imgs2-1 {
-    width: 300px;
-    height: 250px;
-    margin: 10px 15px;
-    position: absolute;
-    left: 5%;
-    top: 1860px;
-  }
-
-  .imgs2-2 {
-    width: 300px;
-    height: 250px;
-    margin: 10px 15px;
-    position: absolute;
-    left: 5%;
-    top: 2310px;
-  }
-
-  .E_imgs2 {
-    padding-top: 5px;
-    position: absolute;
-    left: 10%;
-    top: 1660px;
-    color: #f1f2f4;
-  }
-
-  .E_imgs2-1 {
-    padding-top: 5px;
-    position: absolute;
-    left: 10%;
-    top: 2120px;
-    color: #f1f2f4;
-  }
-  .E_imgs2-2 {
-    padding-top: 5px;
-    position: absolute;
-    left: 10%;
-    color: #f1f2f4;
-    top: 2570px;
-  }
 }
