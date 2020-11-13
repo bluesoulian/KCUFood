@@ -348,27 +348,23 @@ a:hover {
 }
 
 @media screen and (max-width: 450px) {
-
-  .body:{
+  .body {
     margin: 0px;
     padding: 0px;
-
   }
 
-  .whole{
+  .whole {
     height: 100vh;
     width: 100%;
-   
+    min-width: 100%;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
   }
 
   .nav {
     display: flex;
     flex-direction: column;
     height: 80px;
-    
-   
   }
 
   .logo {
@@ -378,67 +374,103 @@ a:hover {
   .NavMenu {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: black;
     top: 0;
+    top: 15vh;
+    height: 20vh;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+  }
+
+  .navs {
+    color: red;
+  }
+
+  .Menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    top: 10vh;
-    height: 200px;
-    width: 15vh;
+    height: calc(100vh - 280px);
+    width: 100%;
+
+    top: 25vh;
+  }
+
+  .Burger {
+    position: absolute;
+    top: 1vh;
     left: 0;
- }
+    color: red;
+  }
 
- .navs{
-   color: red;
- }
+  .Burger:hover {
+    background-color: white;
+  }
 
- .Menu{
-  display: flex;
-  flex-direction: column;   
-  position: relative;
-  height: calc(100vh - 280px);
-  width: 100%;
-  margin: 0px;
-  top: 25vh;
- }
+  .imgs1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
 
- .Burger{
-   text-align: center;
-   margin-top: 20px;
- }
- 
- .imgs1{
-   width: 200px;
-   height: 200px;
- }
+  .imgs1-1 {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
 
- .imgs1-1{
-  width: 200px;
-  height: 200px;
-}
+  .imgs1-2 {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
 
-.imgs1-2{
-  width: 200px;
-  height: 200px;
-}
+  .imgs2 {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
 
- .imgs2{
-  width: 200px;
-  height: 200px;
-}
+  .imgs2-1 {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
 
-.imgs2-1{
-  width: 200px;
-  height: 200px;
-}
+  .imgs2-2 {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
 
-.imgs2-2{
-  width: 200px;
-  height: 200px;
-}
+  .E_imgs1 {
+    margin: auto;
+  }
 
-.E_imgs1{
-  position: relative;
-  
+  .E_imgs2 {
+    margin: auto;
+  }
 
+  .E_imgs1-1 {
+    margin: auto;
+  }
+
+  .E_imgs2-1 {
+    margin: auto;
+  }
+
+  .E_imgs1-2 {
+    margin: auto;
+  }
+
+  .E_imgs2-2 {
+    margin: auto;
+  }
 }
