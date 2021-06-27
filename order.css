@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form .logoandorder {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  border-radius: 5px;
+  justify-content: center;
+  max-width: 800px;
+}
+
+.please {
+  display: none;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  font-weight: 1000;
+  font-size: 1.2rem;
+}
+
+.please.clicked {
+  display: flex;
+}
+
+.form img {
+  width: 5rem;
+  margin: 0 auto;
+}
+
+.form h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.form .info {
+  display: none;
+  flex-direction: column;
+  width: 95%;
+}
+
+.form .info.clicked {
+  display: flex;
+}
+
+.form .info label {
+  font-size: 0.8rem;
+  color: black;
+  font-weight: 700;
+}
+
+.form .info input {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: dotted 0.1rem grey;
+}
+
+.submit {
+  display: none;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 5rem;
+  height: 4vh;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: ivory;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  cursor: pointer;
+}
+
+.submit.clicked {
+  display: inline;
+}
+
+.check {
+  margin-top: 4rem;
+  font-weight: 500;
+}
+
+.menus {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.menus.clicked {
+  display: none;
+}
+
+.menus .select {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.menus .outsideYishun {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 33.333333%;
+}
+
+.menus .insideYishun {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 33.333333%;
+}
+
+.menus .pickup {
+  display: flex;
+  flex-direction: column;
+}
+
+.menus .jajangmeyon {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 33.333333%;
+}
+
+.menus .jjampyong {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 33.333333%;
+}
+
+.menus .TansuYuk {
+  display: flex;
+  flex-direction: column;
+}
+
+.menus .JjajangSet {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 33.333333%;
+}
+
+.menus .JjampongSet {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 33.333333%;
+}
+
+.menus .JjamJjaSet {
+  display: flex;
+  flex-direction: column;
+}
+
+.menus img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.menus label {
+  font-size: 8px;
+  margin-top: -1rem;
+  margin-bottom: 0.5rem;
+}
+
+.next {
+  position: relative;
+  width: 30%;
+  margin-top: 10%;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 5rem;
+  height: 4vh;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: ivory;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  cursor: pointer;
+}
+
+.next.clicked {
+  display: none;
+}
+
+.invoice {
+  display: flex;
+  flex-direction: column;
+}
+
+.totalbox {
+  position: relative;
+  width: 100%;
+  font-weight: 1000;
+  text-align: center;
+}
+
+.sumup {
+  width: 20%;
+}
+
+.deliveryBox {
+  position: relative;
+  width: 100%;
+  font-weight: 1000;
+  text-align: center;
+}
+
+.dsumup {
+  width: 20%;
+}
+
+.superTotal {
+  position: relative;
+  width: 100%;
+  font-weight: 1000;
+  text-align: center;
+}
+
+.ssumup {
+  width: 20%;
+}
+
+.totalbox2 {
+  position: relative;
+  width: 100%;
+  font-weight: 1000;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.totalbox2.clicked {
+  display: none;
+}
+
+.check {
+  display: none;
+  flex-direction: column;
+  border: dotted 0.1px grey;
+}
+
+.check.clicked {
+  display: flex;
+}
+
+.check input {
+  margin-top: 0.1rem;
+}
+
+input[type='number'] {
+  height: 30px;
+  width: 70px;
+  border: dotted 0.01px grey;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  width: 14px;
+  height: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
