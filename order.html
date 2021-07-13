@@ -6,142 +6,228 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <link rel="stylesheet" href="order.css">
     <script src="order.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <title>Email Form</title>
 </head>
 <body>
     
     <form action="https://formsubmit.co/kcu.meokjasg@gmail.com" method="POST" class="form" autocomplete="off">
         <input type="hidden" name="_captcha" value="false"> <!--잘 안되면 지우자-->
-        <div class="logoandorder">
+         
+         <div class="logoandorder">
             <img src="images/logo1.png">
-            <h2>Order Form</h2>
-        </div>
+            <h2>Order Here</h2>
+        </div><br /><br /><br /> 
+        
+        <span class="explaining">식사하세요!
+            Please place your orders (with a minimum order of $25) using the form provided. Our representatives will reach out to you upon confirmation to issue an invoice. Subsequent payment methods and full pick-up details will be found in the invoice. 
+            <br/><br />
+            We will begin service from the 20th of July 2021 and we operate on Tuesdays, Wednesdays, Fridays, Saturdays & Sundays. We are closed on Mondays and Thursdays.
+            <br /><br />
+            Opting for Delivery?<br>
+            We charge $5 for deliveries within Yishun and $10 outside of Yishun. 
+            Our delivery options include two dinner time slots;
+            (A) 5.30pm to 7pm & (B) 7pm to 8.30pm.
+            The time frame allows our riders to reach to you safely while ensuring quality meals. 
+            <br /><br />
+            Opting for Pick-up?<br>
+            We are located along Yishun Ave 9 and pick-ups will only be available from 6pm to 8pm. 
+            <br /><br />
+            For queries and large group orders (more than 5 per item), please contact us directly via;<br /><br />
+            <a href="https://wa.me/6590677077" target="_blank"><i class="fab fa-whatsapp icons"></i> </a>
+            <i class="far fa-envelope icons ebtn"></i>
+            <a href="https://instagram.com/meokjasg?igshid=15bo27wi4r89y" target="_blank"><i class="fab fa-instagram icons"></i></a>
+            <a href="https://www.facebook.com/meokjasg" target="_blank"><i class="fab fa-facebook-square icons"></i> </a>
+            <div class="email"></div>
+            </span>
         <div class="menus">
-
             <div class="jajangmeyon">
                 <div class="img"><img src="images/jajangmeyon.jpg"></div>
                 <div class='select'>
-                    <label>Jjajangmyeon $10</label> 
-                    <input type="number" placeholder="0" min="0" max="5" class="countitem" onkeydown="return false" onclick="getprice()">
+                    <label>JjaJangMyeon | $10</label> 
+                    <input type="number" placeholder="0" min="0" max="5" class="countitem"  onclick="getprice()">
                     <span class="priceshowing"><sapn/>
                 </div>
             </div>
             <div class="jjampyong">
-                <div class="img"><img src="images/jjamppong.jpg"></div>
+                <div class="img"><img src="images/jjamppong.JPEG"></div>
                 <div class="select">
-                    <label>Jjamppong $15</label> 
-                    <input type="number" placeholder="0" min="0" max="5" class="countitem2" onkeydown="return false" onclick="getprice()">
+                    <label>JjamPpong | $13</label> 
+                    <input type="number" placeholder="0" min="0" max="5" class="countitem2"  onclick="getprice()">
                     <span class="priceshowing2"></span>
                 </div>
             </div>
             <div class="TansuYuk">
-                <div class="img"><img src="images/tansuyouk.jpg"></div>
+                <div class="img"><img src="images/TangSuyuk.JPEG"></div>
                 <div class="select">
-                    <label>Tangsuyuk $23</label> 
-                    <input type="number" placeholder="0" min="0" max="5" class="countitem3" onkeydown="return false" onclick="getprice()">
+                    <label>TangSuYuk | $22</label> 
+                    <input type="number" placeholder="0" min="0" max="5" class="countitem3" onclick="getprice()">
+
                     <span class="priceshowing3"></span>
                 </div>
             </div>
             <div class="JjajangSet">
-                <div class="img"><img src="images/tansuyouk.jpg"></div>
+                <div class="img"><img src="images/JjajangSet.JPEG"></div>
                 <div class="select">
-                    <label>Jjajangset $38</label> 
-                    <input type="number" placeholder="0" min="0" max="5" class="countitem4" onkeydown="return false" onclick="getprice()">
+                    <label>JjaJang Set | $37</label> 
+                    <input type="number" placeholder="0" min="0" max="5" class="countitem4"  onclick="getprice()">
                     <span class="priceshowing4"></span>
                 </div>
             </div>
             <div class="JjampongSet">
-                <div class="img"><img src="images/tansuyouk.jpg"></div>
+                <div class="img"><img src="images/JjamPpongSet.JPEG"></div>
                 <div class="select">
-                    <label>JjampongSet $48</label> 
-                    <input type="number" placeholder="0" min="0" max="5" class="countitem5" onkeydown="return false" onclick="getprice()">
+                    <label>JjamPpong Set | $43</label> 
+                    <input type="number" placeholder="0" min="0" max="5" class="countitem5"  onclick="getprice()">
                     <span class="priceshowing5"></span>
                 </div>
             </div>
             <div class="JjamJjaSet">
-                <div class="img"><img src="images/tansuyouk.jpg"></div>
+                <div class="img"><img src="images/JjamJjaSet.JPEG"></div>
                 <div class="select">
-                    <label>JjamJjaset $43</label> 
-                    <input type="number" placeholder="0" min="0" max="5" class="countitem6" onkeydown="return false" onclick="getprice()">
+                    <label>JjamJja Set | $40</label> 
+                    <input type="number" placeholder="0" min="0" max="5" class="countitem6" onclick="getprice()">
                     <span class="priceshowing6"></span>
                 </div>
             </div>
-        </div>
-        <div class="totalbox2">
-            <span>total:</span>
-            <input type="text" name="customer_sumup" required class="sumup2" onkeydown="return false">
-        </div>
+            <div class="Doenjangjjigae">
+                <div class="img"><img src="images/DeonJangjjigae.JPEG"></div>
+                <div class="select">
+                    <label>DoenJang JjiGae | $10</label> 
+                    <input type="number" placeholder="0" min="0" max="5" class="countitem7" onclick="getprice()">
+                    <span class="priceshowing7"></span>
+                </div>
+            </div>
+            <div class="Budaejjigae">
+                <div class="img"><img src="images/budaejjigae.JPEG"></div>
+                <div class="select">
+                    <label>BuDae JjiGae | $13</label> 
+                    <input type="number" placeholder="0" min="0" max="5" class="countitem8" onclick="getprice()">
+                    <span class="priceshowing8"></span>
+                </div>
+            </div>
+            <div class="Dosirak">
+                <div class="img"><img src="images/babsang.JPEG"></div>
+                <div class="select">
+                    <label>BapSang | $10</label> 
+                    <input type="number" placeholder="0" min="0" max="5" class="countitem9" onclick="getprice()">
+                    <span class="priceshowing9"></span>
+                </div>
+            </div>
+            <div class="DoenjangjjigaeSet">
+                <div class="img"><img src="images/DoenJangSet.JPEG"></div>
+                <div class="select">
+                    <label>DoenJang Set | $15</label> 
+                    <input type="number" placeholder="0" min="0" max="5" class="countitem10" onclick="getprice()">
+                    <span class="priceshowing10"></span>
+                </div>
+            </div>
+            <div class="BudaejjigaeSet">
+                <div class="img"><img src="images/budaeset.JPEG"></div>
+                <div class="select">
+                    <label>BuDae Set | $18</label> 
+                    <input type="number" placeholder="0" min="0" max="5" class="countitem11" onclick="getprice()">
+                    <span class="priceshowing11"></span>
+                </div>
+            </div>
+            <div class="Whiterice">
+                <div class="img"><img src="images/whiterice.JPEG"></div>
+                <div class="select">
+                    <label>Bap | $1</label> 
+                    <input type="number" placeholder="0" min="0" max="5" class="countitem12" onclick="getprice()">
+                    <span class="priceshowing12"></span>
+                </div>
+            </div>
 
-        <button class="next" disabled>next</button>
+        </div>
+        
+            <div class="totalbox2">
+                <div>
+                    <span>&nbsp;&nbsp;&nbsp;Total ($):</span>
+                    <input type="text" required class="sumup2" readonly>
+                </div>
+                <button class="ok" onclick="getprice()">Done</button>
+            </div>
 
-        <span class="please">Fill Up Your Order form Please</span>
+        <button class="next" disabled>Next</button>
+
+        <span class="please">Fill in the following details to complete your order.</span>
         <div class="info">
             <input type="hidden" name="_next" value="https://bluesoulian.github.io/meokja.sg/thanks.html">
             <label>Name</label>
-            <input type="text" name="customer_name" placeholder="write your name here" required>
+            <input type="text" name="Customer_Name" placeholder="Input Name" required>
             <label>Address</label>
-            <input type="text" name="customer_address" placeholder="write your address here" required class="address">
-            <label>ContactNumber</label>
-            <input type="text" name="customer_contactnumber" placeholder="write your contactnumber here" required>
-            <label>EmailAddress</label>
-            <input type="text" name="customer_email" placeholder="write your e-mail here" required>
+            <input type="text" name="Customer_Address" placeholder="Input Address" required class="address">
+            <label>Contact Number</label>
+            <input type="tel" name="Coustomer_ContactNumber" placeholder="Input Contact Number" required>
+            <label>Email Address</label>
+            <input type="email" name="Customer_EmailAddress" placeholder="Input Email Address" required>
             
-            <label for="Delivery_options">Delivery_options</label>
-            <select id="Delivery_options" name="Delivery_way" required onchange="addDeliver()" disabled>
+            <label for="Delivery_options">Delivery Options</label>
+            <select id="Delivery_options" name="Delivery Method" required onchange="addDeliver()" disabled>
                 <option disabled selected value>
                     Select an Option
                 </option>
-                <option value="InYishun"> Inside Yishun </option>
-                <option value="OutYishun"> Outside Yishun </option>
-                <option value="PickUp"> PickUp </option>
+                <option value="Within Yishun"> Within Yishun </option>
+                <option value="Outside Yishun"> Outside Yishun </option>
+                <option value="Pick Up"> Pick Up </option>
             </select>
                 
             
-            <label for="days">DayofDelivery</label>
+            <label for="days">Day & Date of Delivery</label>
             <select id="days" name="Delivery_date" required>
                 <option disabled selected value>
                     Select an Option
                 </option>
-                <option value="june 22 2021"> june 22, 2021 </option>
-                <option value="june 23 2021"> june 23, 2021 </option>
-                <option value="june 25 2021"> june 25, 2021 </option>
-                <option value="june 26 2021"> june 26, 2021 </option>
-                <option value="june 27 2021"> june 27, 2021 </option>
+                <option value="Tuesday 20 July 2021"> Tuesday, 20 July 2021 </option>
+                <option value="Wednesday 21 July 2021"> Wednesday, 21 July 2021 </option>
+                <option value="Friday 23 July 2021"> Friday, 23 July 2021 </option>
+                <option value="Saturday 24 July 2021"> Saturday, 24 July 2021 </option>
+                <option value="Sunday 25 July 2021"> Sunday, 25 July 2021 </option>
             </select>
             
 
 
-            <label for="time">DeliveryTime</label>
+            <label for="time">Time of Delivery</label>
             <select id="time" name="Delivery_time" required>
                 <option disabled selected value>
                     Select an Option
                 </option>
                 <option value="Delivery 5:30pm - 7:00pm"> Delivery 5:30pm - 7:00pm </option>
-                <option value="Delivery 7:00pm - 8:00pm"> Delivery 7:00pm - 8:00pm </option>
-                <option value="PickUp 6:00pm - 8:00pm"> PickUp 6:00pm - 8:00pm </option>
+                <option value="Delivery 7:00pm - 8:00pm"> Delivery 7:00pm - 8:30pm </option>
+                <option value="PickUp 6:00pm - 8:30pm"> PickUp 6:00pm - 8:00pm </option>
             </select>
-            
         </div>
 
         <div class="check">
             <label>Your Order Details</label>
-            <input type="text" name="customer_jjajang" class="customer_order" onclick="getprice()" onkeydown="return false">
-            <input type="text" name="customer_jjamppong" class="customer_order2" onclick="getprice()" onkeydown="return false">
-            <input type="text" name="customer_tangsuyuk" class="customer_order3" onclick="getprice()" onkeydown="return false">
-            <input type="text" name="customer_jjajangset" class="customer_order4" onclick="getprice()" onkeydown="return false">
-            <input type="text" name="customer_jjampongset" class="customer_order5" onclick="getprice()" onkeydown="return false">
-            <input type="text" name="customer_jjamjjagset" class="customer_order6" onclick="getprice()" onkeydown="return false">
-            <div class="deliveryBox">
-                <span>Delivery Total:</span>
-                <input type="text" name="delivery_price" required class="dsumup" onkeydown="return false">
-            </div>
+            <input readonly type="text" name="customer_jjajang" class="customer_order" onclick="getprice()">
+            <input readonly type="text" name="customer_jjamppong" class="customer_order2" onclick="getprice()">
+            <input readonly type="text" name="customer_tangsuyuk" class="customer_order3" onclick="getprice()">
+            <input readonly type="text" name="customer_jjajangset" class="customer_order4" onclick="getprice()">
+            <input readonly type="text" name="customer_jjampongset" class="customer_order5" onclick="getprice()">
+            <input readonly type="text" name="customer_jjamjjagset" class="customer_order6" onclick="getprice()">
+            <input readonly type="text" name="customer_deonjangjjigae" class="customer_order7" onclick="getprice()">
+            <input readonly type="text" name="customer_budaejjigae" class="customer_order8" onclick="getprice()">
+            <input readonly type="text" name="customer_dosirak" class="customer_order9" onclick="getprice()">
+            <input readonly type="text" name="customer_deonjangjjigaeset" class="customer_order10" onclick="getprice()">
+            <input readonly type="text" name="customer_budaejjigaeset" class="customer_order11" onclick="getprice()">
+            <input readonly type="text" name="customer_whiterice" class="customer_order12" onclick="getprice()">
+            
             <div class="totalbox">
-                <span>Food Total:</span>
-                <input type="text" name="customer_sumup" required class="sumup" onkeydown="return false">
+                <span>Sub Total ($):</span>
+                <input readonly type="text" name="food_price" required class="sumup">
+            </div>
+            <div class="deliveryBox">
+                <span>Delivery Fee ($):</span>
+                <input readonly type="text" name="delivery_price" required class="dsumup">
             </div>
             <div class="superTotal">
-                <span>AllTogether:</span>
-                <input type="text" name="SumAllTogether" required class="ssumup" onkeydown="return false">
+                <span>Total ($):</span>
+                <input readonly type="text" name="sumup" required class="ssumup">
             </div>
         </div>
             <button class="submit" disabled onclick="limit()">submit</button>
